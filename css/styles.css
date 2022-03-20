@@ -19,3 +19,9 @@
     font-family: 'Are You Serious';
     font-size: xx-large;
 }
+#Orders h1 {
+    text-align: center;
+}
+.pizza {
+    text-align: center;
+}
