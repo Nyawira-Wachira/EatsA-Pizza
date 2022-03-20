@@ -19,9 +19,18 @@
     font-family: 'Are You Serious';
     font-size: xx-large;
 }
+.container {
+    padding-top: 30px;
+}
 #Orders h1 {
     text-align: center;
 }
-.pizza {
+.button {
     text-align: center;
+    padding-top: 35px;
+}
+#Contacts {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 40px;
 }
