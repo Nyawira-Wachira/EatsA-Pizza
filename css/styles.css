@@ -22,6 +22,17 @@
 .container {
     padding-top: 30px;
 }
+#element {
+    text-align: center;
+} 
+#element p {
+    padding-top: 6px;
+    padding-bottom: 6px;
+} 
+#element h5 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
 #Orders h1 {
     text-align: center;
 }
