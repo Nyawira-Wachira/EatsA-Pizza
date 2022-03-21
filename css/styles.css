@@ -1,15 +1,16 @@
 .card-img-overlay h1 {
     position: absolute;
     top: 160px;
-    left: 25%;
+    left: 10%;
     font-family: 'Asset';
-
+    font-size: 4.1vw;
 }
 .card-img-overlay h3 { 
     position: absolute;
-    top: 240px;
-    left: 30%;
+    top: 250px;
+    left: 25%;
     font-family: 'Alfa Slab One';
+    font-size: 2.5vw;
 
 }
 .card-img-overlay p {
@@ -53,4 +54,8 @@
     padding-bottom: 20px;
     line-height: 0.5;
     color: mediumblue;
+}
+#response {
+    position: absolute;
+    text-align:center; 
 }

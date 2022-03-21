@@ -47,70 +47,71 @@
                 <div class="card-img-overlay">
                 <h1 class="card-title">EatsA Pizza</h1>
                 <h3 class="card-text">LOVE AT FIRST SLICE!</h3>
-                <p class="card-text">When the going gets tough, the tough order pizza :)</p>
+
+                <p style="font-size:3vw;" class="card-text">When the going gets tough, the tough order pizza :)</p>
                 </div>
             </div>
         </div>
     </div> 
     <div class="container" id="Orders">
       <h1>ORDERS</h1>
-      <div class="row">
-        <div class="col-md-4" id="element">
-          <p>Choose the size of pizza you'd like.</p>
-          <img src="./images/pizza.jpeg" alt="" srcset="">
-          <h5>Pizza</h5>
-          <select class="form-select" id ="size" aria-label="Default select example">
-            <option value="1">Small</option>
-            <option value="2">Medium</option>
-            <option value="3">Large</option>
-          </select>
+        <div class="row">
+            <div class="col-md-4" id="element">
+            <p>Choose the size of pizza you'd like.</p>
+            <img src="./images/pizza.jpeg" alt="" srcset="">
+            <h5>Pizza</h5>
+            <select class="form-select" id ="size" aria-label="Default select example">
+              <option value="Small - 600">Small</option>
+              <option value="Medium - 800">Medium</option>
+              <option value="Large - 950">Large</option>
+            </select>
+            </div>
+            <div class="col-md-4" id="element">
+              <p>What toppings would you like?</p>
+              <img src="./images/ptop.jpeg" alt="" srcset="">
+              <h5>Toppings</h5>
+              <select class="form-select" id="top" aria-label="Default select example">
+                <option value="Bacon - 50">Bacon</option>
+                <option value="Extra-cheese - 100">Extra-Cheese</option>
+                <option value="pepperoni - 150">Pepperoni</option>
+              </select>
+            </div>  
+            <div class="col-md-4" id="element">
+              <p>What kind of crust would you like?</p>
+              <img src="./images/crust.jpeg" alt="" srcset="">
+              <h5>Crust</h5>
+              <select class="form-select" id="crust" aria-label="Default select example">
+                <option value="Crispy - 200">Crispy</option>
+                <option value="Stuffed - 300">Stuffed</option>
+                <option value="Glutten-free - 400">Gluten-free</option>
+              </select>
+            </div>
         </div>
-        <div class="col-md-4" id="element">
-          <p>What toppings would you like?</p>
-          <img src="./images/ptop.jpeg" alt="" srcset="">
-          <h5>Toppings</h5>
-          <select class="form-select" id="top" aria-label="Default select example">
-            <option value="1">Bacon</option>
-            <option value="2">Extra Cheese</option>
-            <option value="3">Pepperoni</option>
-          </select>
-        </div>  
-        <div class="col-md-4" id="element">
-          <p>What kind of crust would you like?</p>
-          <img src="./images/crust.jpeg" alt="" srcset="">
-          <h5>Crust</h5>
-          <select class="form-select" id="crust" aria-label="Default select example">
-            <option value="1">Crispy</option>
-            <option value="2">Stuffed</option>
-            <option value="3">Gluten-free</option>
-          </select>
-        </div>  
-        <div class="button" id="order">
-          <button class="btn btn-primary" type="button">Order</button>
-        </div>
-      </div>
-      <div class="col-md-12">
-        <div id="show-order">
-          <p>1<span class="First-order"></span></p>
-        </div>
-      </div>  
     </div>
-      <div class="row" id="Contacts">
-        <div class="Contact" id="Contacts1">
-          <Strong><P>EatsA Pizza</P></Strong>
-          <p>Thika Road, Garden City Mall</p>
-          <p>65071-00100</p>
-          <p>Nairobi</p>
-        </div>
+    <div class="button" id="submit">
+    <button class="btn btn-primary" type="submit" onclick="order()">Order</button>
+    </div>
+    <div class="row">
+      <div class="col-md-6" id="response">
+      </div> 
+    </div>
+    <div class="row" id="Contacts">
+      <div class="Contact" id="Contacts1">
+        <Strong><P>EatsA Pizza</P></Strong>
+        <p>Thika Road, Garden City Mall</p>
+        <p>65071-00100</p>
+        <p>Nairobi</p>
       </div>
-      <div class="row" id="Contacts">
-        <div class="Contact" id="Contacts2">
-          <P>To contact us directly, send us an email to:</P>
-          <p><strong>eatsapizza@gmail.com</strong></p>
-          <p>or call us on <strong>0712345678</strong></p>
-        </div>
+    </div>
+    <div class="row" id="Contacts">
+      <div class="Contact" id="Contacts2">
+        <P>To contact us directly, send us an email to:</P>
+        <p><strong>eatsapizza@gmail.com</strong></p>
+        <p>or call us on <strong>0712345678</strong></p>
       </div>
-          
+    </div>
+    
+      
 
  
 
