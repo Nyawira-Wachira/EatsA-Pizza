@@ -59,36 +59,42 @@
           <p>Choose the size of pizza you'd like.</p>
           <img src="./images/pizza.jpeg" alt="" srcset="">
           <h5>Pizza</h5>
-          <select class="form-select" aria-label="Default select example">
+          <select class="form-select" id ="size" aria-label="Default select example">
             <option value="1">Small</option>
             <option value="2">Medium</option>
             <option value="3">Large</option>
           </select>
         </div>
-          <div class="col-md-4" id="element">
-            <p>What toppings would you like?</p>
-            <img src="./images/ptop.jpeg" alt="" srcset="">
-            <h5>Toppings</h5>
-            <select class="form-select" aria-label="Default select example">
-              <option value="1">Bacon</option>
-              <option value="2">Extra Cheese</option>
-              <option value="3">Pepperoni</option>
-            </select>
-          </div>  
-          <div class="col-md-4" id="element">
-            <p>What kind of crust would you like?</p>
-            <img src="./images/crust.jpeg" alt="" srcset="">
-            <h5>Crust</h5>
-            <select class="form-select" aria-label="Default select example">
-              <option value="1">Crispy</option>
-              <option value="2">Stuffed</option>
-              <option value="3">Gluten-free</option>
-            </select>
-          </div>  
-          <div class="button">
-            <button class="btn btn-primary" type="submit">Order</button>
-          </div>
+        <div class="col-md-4" id="element">
+          <p>What toppings would you like?</p>
+          <img src="./images/ptop.jpeg" alt="" srcset="">
+          <h5>Toppings</h5>
+          <select class="form-select" id="top" aria-label="Default select example">
+            <option value="1">Bacon</option>
+            <option value="2">Extra Cheese</option>
+            <option value="3">Pepperoni</option>
+          </select>
+        </div>  
+        <div class="col-md-4" id="element">
+          <p>What kind of crust would you like?</p>
+          <img src="./images/crust.jpeg" alt="" srcset="">
+          <h5>Crust</h5>
+          <select class="form-select" id="crust" aria-label="Default select example">
+            <option value="1">Crispy</option>
+            <option value="2">Stuffed</option>
+            <option value="3">Gluten-free</option>
+          </select>
+        </div>  
+        <div class="button" id="order">
+          <button class="btn btn-primary" type="button">Order</button>
+        </div>
       </div>
+      <div class="col-md-12">
+        <div id="show-order">
+          <p>1<span class="First-order"></span></p>
+        </div>
+      </div>  
+    </div>
       <div class="row" id="Contacts">
         <div class="Contact" id="Contacts1">
           <Strong><P>EatsA Pizza</P></Strong>
