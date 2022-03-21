@@ -21,6 +21,7 @@ Technologies used in the development of this project include:
 * HTML
 * JavaScript
 * CSS
+
 BootStrap framework and jquery as well.
 ## Support and contact details
 If the application malfunctions or develops a problem, feel free to contact me through email at abigailwachira@gmail.com
