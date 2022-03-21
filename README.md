@@ -3,8 +3,7 @@
 It is a web application that enables people to order pizza at the comfort of their home and with the convenience of the click of a button.
 #### By **Nyawira Wachira**
 ## Description
-EatsA Pizza web application is created in such a way that it enables users to order the size of pizza they want, the type of toppings they prefer
-and the type of crust they want. The application also shows the price of each size of pizza, topping and crust. With the click of the order button,
+EatsA Pizza web application is created in such a way that it enables users to order the size of pizza they want and to choose the type of toppings they prefer and the type of crust they want. The application also shows the price of each size of pizza, topping and crust. With the click of the order button,
 it displays the customer's order and the price. It also allows the users to make as many orders as they want and calculates the total cost of all the
 orders, with a summary of the entire order. It also has a feature that enables users to choose how to receive their order; whether a delivery to 
 a specific location or not and an alert that confirms the delivery to be made.
@@ -47,6 +46,7 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
 
 Copyright (c) 2022 **Nyawira Wachira**
   
