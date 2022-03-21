@@ -1,4 +1,4 @@
-# EatsA Pizza
+# EatsA Pizza Web Application
 #### 
 It is a web application that enables people to order pizza at the comfort of their home and with the convenience of the click of a button.
 #### By **Nyawira Wachira**
