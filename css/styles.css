@@ -40,6 +40,13 @@
     line-height: 0.5;
     color:blue;
 }
+#Contacts2 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    line-height: 0.5;
+    color:darkmagenta;
+}
 
 #response {
     position: absolute;
