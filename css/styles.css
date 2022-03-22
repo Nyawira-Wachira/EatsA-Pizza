@@ -127,26 +127,6 @@ div.totalPick, div.name, div.location, div.totalDel, div.phone{
     font-weight: bold;
     font-family: 'Zhi Mang Xing', cursive;
 }
-#contactus{
-    width: 100%;
-    height: auto;
-    text-align: center;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    background-image: url("p6.jpg");
-    background-size: cover;
-    font-family: 'Zhi Mang Xing', cursive;
-}
-#contactus img{
-    object-fit: cover;
-    height: auto;
-}
-#contactus .btn{
-    background: transparent !important;
-    color: white;
-    font-weight: bold;
-    padding: 1%;
-}
 h3{
     padding-top: 3%;
     font-size: 50px;
