@@ -20,42 +20,133 @@
     font-family: 'Are You Serious';
     font-size: xx-large;
 }
+#Home {
+    padding-bottom: 40px;
+
+}
+.form-group img {
+    padding: 30px;
+}
 .container {
     padding-top: 30px;
 }
-#element {
-    text-align: center;
-} 
-#element p {
-    padding-top: 6px;
-    padding-bottom: 6px;
-} 
-#element h5 {
-    padding-top: 20px;
-    padding-bottom: 15px;
-}
 #Orders h1 {
     text-align: center;
-}
-.button {
-    text-align: center;
-    padding-top: 35px;
 }
 #Contacts1 {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 10px;
     line-height: 0.5;
-    color:deeppink;
+    color:blue;
 }
-#Contacts2 {
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 20px;
-    line-height: 0.5;
-    color: mediumblue;
-}
+
 #response {
     position: absolute;
     text-align:center; 
+}
+#ordersection{
+    text-align: center;
+}
+.jumbotron{
+    border-radius: 20px;
+}
+form{
+    padding-left: 13%;
+    padding-right: 13%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.form-control{
+    color: rgb(17, 17, 17);
+}
+form label{
+    color: black;
+    font-size: 17px;
+    font-family: 'Zhi Mang Xing', cursive;
+}
+select{
+    display: block !important;
+}
+.form-check{
+    padding: 0;
+}
+h5 {
+    color: plum
+
+}
+.col-md-5{
+    text-align: left;
+    padding: 0;
+}
+.form-group small{
+    margin-top: 0 !important;
+    margin-bottom: 8px;
+}
+.btn {
+    color: #fff;
+    background-color: plum !important;
+    border-radius: 9px;
+    padding: 9px;
+}
+#yourorder{
+    text-align: center;
+    display: none;
+    padding-bottom: 5%;
+}
+table .table-sm th{
+    text-align: center;
+}
+#text{
+    padding-top: 7%;
+    padding-bottom: 5%;
+    padding-left: 0;
+    padding-right: 0;
+}
+#deliveryOptions{
+    display: none;
+}
+#delivery{
+    display: none;
+    text-align: center;
+    padding: 3% 
+}
+#pickUpConfirmation, #deliveryConfirmation{
+    display: none;
+    text-align: center;
+}
+div.totalPick, div.name, div.location, div.totalDel, div.phone{
+    display: inline;
+    font-weight: bold;
+    font-family: 'Zhi Mang Xing', cursive;
+}
+#contactus{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    background-image: url("p6.jpg");
+    background-size: cover;
+    font-family: 'Zhi Mang Xing', cursive;
+}
+#contactus img{
+    object-fit: cover;
+    height: auto;
+}
+#contactus .btn{
+    background: transparent !important;
+    color: white;
+    font-weight: bold;
+    padding: 1%;
+}
+h3{
+    padding-top: 3%;
+    font-size: 50px;
+    padding-bottom: 2%;
+    font-family: 'Zhi Mang Xing', cursive;
+}
+#message{
+    color:white;
+    background: transparent;
 }
